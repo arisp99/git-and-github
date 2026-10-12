@@ -3,6 +3,8 @@ title: "Intro to Git and GitHub"
 author: "Aris Paschalidis"
 institute: Brown University
 date: "June 1, 2022"
+execute:
+  enabled: false
 format:
   revealjs:
     chalkboard: true
@@ -62,10 +64,10 @@ sudo yum install git
 # Introduce yourself to git
 git config --global user.name "First Last"
 git config --global user.email "Email Address"
-  
+
 # Check setup
-git config --global --list 
-```        
+git config --global --list
+```
 
 ### R
 ```{r}
@@ -85,24 +87,24 @@ usethis::edit_git_config()
 ## Initialization
 
 ::: {.incremental}
-- In order to work with git, we must obtain a git repository. 
+- In order to work with git, we must obtain a git repository.
 - One way to do so is through **initialization**, which tells git to track
 changes moving forwards.[^1]
 - This process creates a new `.git` subdirectory that contains all of your
 necessary repository files.
 - To do so, we use:
-  
+
   ::: {.panel-tabset}
   ### Bash
   ```{.bash}
   git init
   ```
-  
+
   ### R
   ```{r}
   usethis::use_git()
   ```
-  
+
   :::
 :::
 
@@ -133,11 +135,11 @@ between files.
 
 Each commit should be:
 
-- *Minimal:* A commit should only contain changes related to a single problem 
+- *Minimal:* A commit should only contain changes related to a single problem
     or feature
 - *Complete:* A commit should add the functionality it claims to add
-- *Concise, yet evocative:* At a glance, you should be able to understand what 
-    a commit does, but you should include enough detail so you can remember 
+- *Concise, yet evocative:* At a glance, you should be able to understand what
+    a commit does, but you should include enough detail so you can remember
     what was done
 
 ## Time Travel

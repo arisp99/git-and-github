@@ -9,9 +9,8 @@ Lab at Brown University.
 
 ## View the presentation
 
-Open [`git-and-github.html`](git-and-github.html) in a web browser. The rendered
-presentation is included in the repository, so Quarto is not required to view
-it.
+View the presentation at
+[arisp99.github.io/git-and-github](https://arisp99.github.io/git-and-github/).
 
 ## Render from source
 
@@ -24,6 +23,9 @@ quarto render git-and-github.qmd
 This regenerates the presentation from [`git-and-github.qmd`](git-and-github.qmd).
 The R snippets in the slides are displayed examples; running them requires R
 and the [`usethis`](https://usethis.r-lib.org/) package.
+
+Changes pushed to `main` are automatically published to GitHub Pages by the
+repository's GitHub Actions workflow.
 
 ## License
 
