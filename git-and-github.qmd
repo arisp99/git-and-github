@@ -3,8 +3,6 @@ title: "Intro to Git and GitHub"
 author: "Aris Paschalidis"
 institute: Brown University
 date: "June 1, 2022"
-execute:
-  enabled: false
 format:
   revealjs:
     chalkboard: true
@@ -70,7 +68,7 @@ git config --global --list
 ```
 
 ### R
-```{r}
+```r
 # Introduce yourself to git
 usethis::use_git_config(
   user.name = "First Last",
@@ -101,7 +99,7 @@ necessary repository files.
   ```
 
   ### R
-  ```{r}
+  ```r
   usethis::use_git()
   ```
 
